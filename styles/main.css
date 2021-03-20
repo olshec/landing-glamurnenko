@@ -29,28 +29,29 @@ body {
 }
 
 .container {
-	position: absolute;
+	position: relative;
 	/* top: 200px; */
 }
 
 #logo-new {
 	position: absolute;
-	top: 30%; 
+	top: 10em; 
 	left: 0em;
 }
 
 #logo-text-caption {
 	position: absolute;
-    top: 65%; 
+    top: 20em; 
     left: 0em;
     
 }
 
 #logo-text-value {
 	position: absolute;
-    top: 69%; 
+    top: 21.5em; 
     left: 0em;
     color: rgba(177,159,137,255);
+    text-decoration: underline; 
 }
   
   
