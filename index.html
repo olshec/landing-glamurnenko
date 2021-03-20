@@ -21,7 +21,7 @@
         <h1>My First Bootstrap Page</h1>
         <p>Resize this responsive page to see the effect!</p> 
     </div> -->
-    <nav class="navbar navbar-expand-lg navbar-white bg-black">
+    <nav class="navbar navbar-expand-lg navbar-white bg-black" id="navbar-top">
 
 	
 	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,16 +51,22 @@
 	  </div>
 	</nav>
 
+   
     <div class="bg-main-container">
-    <img id="bg-main" src="images/bg-main.png">
-    <img id="logo-new" src="images/logo-new.png">
-    </div>
-    
-    
+	    <img id="bg-main" src="images/bg-main.png">
+	    <img id="logo-new" src="images/logo-new.png">
+	    <div id="logo-text-caption">
+	       НАША МИССИЯ:
+	    </div>
+	    <div id="logo-text-value">
+           "МИЛЛИОН КРАСИВЫХ ЖЕНЩИН"
+        </div>
+    </div>    
+   
 	<div class="container">
 	  <div class="row">
 	    <div class="col-sm-12">
-	      
+
 	    </div>
 	    
 <!-- 	    <div class="col-sm-4">
@@ -75,7 +81,7 @@
 	    </div> -->
 	  </div>
 	</div>
-
+	
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="jquery.fancybox.min.js"></script>

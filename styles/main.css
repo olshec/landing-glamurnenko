@@ -1,6 +1,7 @@
 body {
     font-family: Roboto;
     background-color: black;
+    color: white;
 }
 
 * {
@@ -9,12 +10,22 @@ body {
     margin: 0;
 }
 
+#navbar-top {
+	left: 10%;
+}
+
+.bg-main-container {
+	position: absolute;
+	width: 80%;
+	left: 10%;
+}
+
 #bg-main {
 	width: 100%;
 }
 
 .nav-link{
-  color: white;
+    color: white;
 }
 
 .container {
@@ -26,6 +37,20 @@ body {
 	position: absolute;
 	top: 30%; 
 	left: 0em;
+}
+
+#logo-text-caption {
+	position: absolute;
+    top: 65%; 
+    left: 0em;
+    
+}
+
+#logo-text-value {
+	position: absolute;
+    top: 69%; 
+    left: 0em;
+    color: rgba(177,159,137,255);
 }
   
   
