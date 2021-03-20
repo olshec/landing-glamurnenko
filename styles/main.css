@@ -123,8 +123,8 @@ table, th, td {
 	background-color: white;
 	color: black;
 	padding-top: 5em;
-	padding-left: 6%;
-    padding-right: 2%;
+	padding-left: 5%;
+    padding-right: 5%;
 }
   
 .capture-service-packages {
@@ -164,31 +164,44 @@ table, th, td {
 
 .card {
 	display: inline-block;
-    width: 25%;
-    height: 24em;
+    width: 100%;
+    height: 25em;
     overflow: hidden;
-    
-}
-.card:not(:last-child) {
-	margin-right: 10%;
 }
 
-.assessment {
+
+.price-package {
 	display: block;
-	height: 4em;
+	position: absolute;
+	bottom: 20%;
+	overflow: hidden;
 }  
+
+.question {
+	display: block;
+    position: absolute;
+    bottom: 40%;
+    overflow: hidden;
+}
+
+.time {
+	display: block;
+    position: absolute;
+    bottom: 60%;
+    overflow: hidden;
+}
   
 .price {
-position: relative;
+    position: relative;
 }
  
 .price:before {
-border-bottom: 1px solid red;
-position: absolute;
-content: "";
-width: 130%;
-height: 50%;
-transform: rotate(-10deg) translate(-15%);
+	border-bottom: 1px solid red;
+	position: absolute;
+	content: "";
+	width: 130%;
+	height: 50%;
+	transform: rotate(-10deg) translate(-15%);
 }
   
   
