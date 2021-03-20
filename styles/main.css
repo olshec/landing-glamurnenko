@@ -173,7 +173,18 @@ table, th, td {
 }
   
   
-  
+.price {
+position: relative;
+}
+ 
+.price:before {
+border-bottom: 1px solid red;
+position: absolute;
+content: "";
+width: 130%;
+height: 50%;
+transform: rotate(-10deg) translate(-15%);
+}
   
   
   
