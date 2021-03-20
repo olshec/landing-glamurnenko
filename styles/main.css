@@ -2,6 +2,9 @@ body {
     font-family: Roboto;
     background-color: black;
     color: white;
+    position: relative;
+    width: 80%;
+    left: 10%;
 }
 
 * {
@@ -11,18 +14,18 @@ body {
 }
 
 #navbar-top {
-	left: 10%;
+	left: 0%;
 }
 
 .bg-main-container {
-	position: absolute;
-	width: 80%;
-	left: 10%;
+	position: relative;
+/* 	width: 80%;
+	left: 10%; */
 }
 
-#bg-main {
+ #bg-main {
 	width: 100%;
-}
+} 
 
 .nav-link{
     color: white;
@@ -53,5 +56,69 @@ body {
     color: rgba(177,159,137,255);
     text-decoration: underline; 
 }
+
+ .help-container {
+	display: block;
+	background-color: white;
+	color: black;
+}
+
+#capture-text-help {
+	text-align: center;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+#value-text-help {
+	/* position: relative; */
+	width: 90%;
+	left: 5%;
+	text-align: center;
+	padding-bottom: 1em;
+}
+  
+#form-reservation-bigcolor {
+    width: 100%;
+}
+  
+.text-image-describe {
+	text-align: center;
+}  
+  
+.describe-help-container {
+	/* position: relative; */
+/* 	left: 10%;*/
+	width: 60%; 
+	margin-left: auto;
+    margin-right: auto;
+}  
+
+.capture-describe-help-container {
+	 margin-top: 2em;
+	 margin-bottom: 2em;
+}
+  
+.text-describe-point {
+	margin-top: 2em;
+    margin-bottom: 2em;
+}  
+
+.text-describe-answer {
+	margin-left: 4em;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
   
   
