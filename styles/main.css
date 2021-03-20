@@ -140,18 +140,17 @@ table, th, td {
 }  
 
 .service-package {
-	/* top: 0; */
 	display: inline-block;
 	width: 20%;
+	height: 20em;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 1em;
-   /*  margin-left: 3%;  */
-   border: 1px solid black;
-   height: 20em;
-   overflow: hidden;
+	border: 1px solid black;
+	
+	overflow: hidden;
 }
   
 .text-package {
