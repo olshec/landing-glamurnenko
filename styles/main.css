@@ -43,7 +43,7 @@ body {
 #logo-text-value {
 	position: absolute;
     top: 21.5em; 
-    left: 0em;
+    left: 0%;
     color: rgba(177,159,137,255);
     text-decoration: underline; 
 }
@@ -120,6 +120,7 @@ table, th, td {
 }
 
 .container-service-packages {
+	position: relative;
 	background-color: white;
 	color: black;
 	padding-top: 5em;
@@ -132,8 +133,30 @@ table, th, td {
     margin-bottom: 2em;
 }
   
+.list-packages {
+	position: relative;
+	width: 100%;
+    left: 5%;
+}  
+
+.service-package {
+	/* top: 0; */
+	display: inline-block;
+	width: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding: 1em;
+   /*  margin-left: 3%;  */
+   border: 1px solid black;
+}
   
-  
+.text-package {
+	text-align: center;
+}  
+
+.name-package {
+    text-align: center;
+}  
   
   
   
