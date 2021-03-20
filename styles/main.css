@@ -225,25 +225,26 @@ table, th, td {
     padding-bottom: 2em;
 }
 
-/* .row {
+.table-galery tr {
 	position: relative;
+	padding-bottom: 2em;
+    /* cellspacing: 2em;
+    cellpadding: 2em; */
 }
 
-.col-sm-4, .col-sm-1  {
-    position: relative;
-} */
 
-.image-galery {
-	position: relative;
-	padding-bottom: 4em;
+.table-galery tr td {
+	border: hidden;
+	padding-bottom: 2em;
 }
 
 .text-image {
-	position: absolute;
-	vertical-align: middle;
-    /* top: 30%;  */
-    left: 40%;
+    padding-left: 1em; 
 }
+
+/* td.text-image {
+    
+}   */
 
 
 
