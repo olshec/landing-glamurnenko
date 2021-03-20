@@ -120,7 +120,10 @@ table, th, td {
 }
   
   
-  
+#books_preview {
+	
+	width: 100%;
+}
   
   
   
