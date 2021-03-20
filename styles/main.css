@@ -166,12 +166,18 @@ table, th, td {
 .card {
 	display: inline-block;
     width: 25%;
+    height: 24em;
+    overflow: hidden;
     
 }
 .card:not(:last-child) {
 	margin-right: 10%;
 }
-  
+
+.assessment {
+	display: block;
+	height: 4em;
+}  
   
 .price {
 position: relative;
