@@ -13,10 +13,6 @@ body {
     margin: 0;
 }
 
-#navbar-top {
-	left: 0%;
-}
-
 .bg-main-container {
 	position: relative;
 /* 	width: 80%;
@@ -70,7 +66,7 @@ body {
 }
 
 #value-text-help {
-	/* position: relative; */
+    position: relative; 
 	width: 90%;
 	left: 5%;
 	text-align: center;
