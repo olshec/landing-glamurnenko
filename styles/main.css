@@ -124,6 +124,8 @@ table, th, td {
 	background-color: white;
 	color: black;
 	padding-top: 5em;
+	padding-left: 6%;
+    padding-right: 2%;
 }
   
 .capture-service-packages {
@@ -160,6 +162,15 @@ table, th, td {
 .name-package {
     text-align: center;
 }  
+
+.card {
+	display: inline-block;
+    width: 25%;
+    
+}
+.card:not(:last-child) {
+	margin-right: 10%;
+}
   
   
   
