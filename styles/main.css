@@ -16,5 +16,16 @@ body {
 .nav-link{
   color: white;
 }
+
+.container {
+	position: absolute;
+	/* top: 200px; */
+}
+
+#logo-new {
+	position: absolute;
+	top: 30%; 
+	left: 0em;
+}
   
   
