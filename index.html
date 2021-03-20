@@ -14,6 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
 </head>
 <body>
 
@@ -312,8 +313,22 @@
 	  </div>
 	</div>
 	
+	
+
+ <h3>Группа картинок (галерея изображений)</h3>
+ <a class="gallery" rel="group" title="это фото 1" href="images/alexa.jpg"><img src="images/alexa.jpg" /></a>
+ <a class="gallery" rel="group" title="это фото 2" href="images/ekat-img-2.png"><img src="images/ekat-img-2.png" /></a>
+ <a class="gallery" rel="group" href="images/alexa.jpg"><img src="images/alexa.jpg" /></a>
+
+
     <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    
+    <script type="text/javascript">
+		$(document).ready(function() {
+		    $("a.gallery").fancybox();
+		});
+	</script>
 </body>
 </html>
