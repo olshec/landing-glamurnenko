@@ -53,8 +53,7 @@ body {
     text-decoration: underline; 
 }
 
- .help-container {
-	display: block;
+.help-container {
 	background-color: white;
 	color: black;
 }
@@ -101,10 +100,24 @@ body {
 
 .text-describe-answer {
 	margin-left: 4em;
+	margin-bottom: 0em;
 }
   
-  
-  
+.container-table-you-get {
+    background-color: white;
+    color: black;
+    padding-top: 3em;
+}
+
+#table-you-get {
+	width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}  
+
+table, th, td {
+  border: 1px solid black;
+}
   
   
   
