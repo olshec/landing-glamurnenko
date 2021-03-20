@@ -15,8 +15,6 @@ body {
 
 .bg-main-container {
 	position: relative;
-/* 	width: 80%;
-	left: 10%; */
 }
 
  #bg-main {
@@ -29,20 +27,17 @@ body {
 
 .container {
 	position: relative;
-	/* top: 200px; */
 }
 
 #logo-new {
 	position: absolute;
 	top: 10em; 
-	left: 0em;
+	left: 0;
 }
 
 #logo-text-caption {
 	position: absolute;
     top: 20em; 
-    left: 0em;
-    
 }
 
 #logo-text-value {
@@ -121,10 +116,21 @@ table, th, td {
   
   
 #books_preview {
-	
 	width: 100%;
 }
+
+.container-service-packages {
+	background-color: white;
+	color: black;
+	padding-top: 5em;
+}
   
+.capture-service-packages {
+	position: relative; 
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+}
   
   
   
