@@ -60,9 +60,8 @@ body {
 }
 
 #value-text-help {
-    position: relative; 
-	width: 90%;
-	left: 5%;
+	padding-left: 15%;
+	padding-right: 15%;
 	text-align: center;
 	padding-bottom: 1em;
 }
