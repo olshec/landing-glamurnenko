@@ -23,6 +23,34 @@ body {
 
 .nav-link{
     color: white;
+    font-size: 0.9em;
+}
+
+.nav-icon {
+	position: absolute;
+	clip: rect(0px,60px,25px,0px);
+	top: 15%;
+}
+
+.nav-icon-camera {
+    clip: rect(0px,60px,25px,0px);
+    left: 50%;
+    top: 15%;
+}
+
+.nav-icon-facebook {
+    left: 75%;
+}
+
+.nav-icon-vk {
+    left: 100%;
+}
+
+.nav-telephone {
+	position:relative;
+	display:block; 
+	width:7em;
+	left: 200%;
 }
 
 .container {
@@ -280,4 +308,12 @@ footer {
     }
 }
 
+@media (max-width: 1125px) { 
+    .nav-telephone {
+        display: none;
+    }
+    .nav-icon {
+        display: none;
+    }
+}
   
