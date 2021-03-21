@@ -240,9 +240,12 @@ table, th, td {
 
 footer {
     color: white;
-    text-align: center;
     padding-top: 2em;
     padding-bottom: 2em;
+}
+
+.btn-up-container {
+	text-align: center;
 }
 
 .btn-up {
@@ -251,6 +254,9 @@ footer {
 	border-radius: 0px 0px 00px 0px;
 }
 
+.footer-text {
+	margin-top: 3em;
+}
 
 
 
