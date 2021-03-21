@@ -1,18 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
     position: relative;
-    width: 80%;
-    left: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     min-width: 550px;
 }
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
+
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oranienbaum', serif;
@@ -310,7 +311,7 @@ footer {
     }
 }
 
-@media (max-width: 760px) { 
+@media (max-width: 860px) { 
     .novelty {
         display: none;
     }
@@ -326,6 +327,43 @@ footer {
 }  
 
 @media (max-width: 1125px) { 
+	body {
+	    padding-left: 0;
+	    padding-right: 0;
+    }
+    .help-container {
+        margin-left: -10%;
+        margin-right: -10%;
+    }
+    .container-table-you-get {
+        margin-left: -10%;
+        margin-right: -10%;
+    }
+    .books_preview {
+        margin-left: -10%;
+        margin-right: -10%;
+    }
+    .container-service-packages {
+        margin-left: -10%;
+        margin-right: -10%;
+    }
+    .container-process {
+        margin-left: -10%;
+        margin-right: -10%;    
+    }
+    .bg-main-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .navbar {
+        margin-left: -1.5em;
+        margin-right: -1.5em;
+    }
+    
+    .novelty {
+        left: 1em;
+    }
     .nav-telephone {
         display: none;
     }
