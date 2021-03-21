@@ -4,18 +4,27 @@
     <meta charset="utf-8">
     <title>My page</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Bootstrap -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="styles/main.css">
+    
+    
+    
 </head>
 <body>
 
@@ -84,7 +93,7 @@
     
 			<div class="help-container">
 			    <div id="capture-text-help">
-			    СКОРАЯ СТИЛЬНАЯ ПОМОЩЬ  
+                    <h2>СКОРАЯ СТИЛЬНАЯ ПОМОЩЬ</h2>  
 			    </div>
 				<div id="value-text-help">
 				    ОНЛАЙН-КОНСУЛЬТАНЦИЯ СТИЛИСТА В ВАШЕМ МОБИЛЬНОМ ТЕЛЕФОНЕ КОГДА ВАМ НУЖНО: НА ШОППИНГЕ, ВО ВРЕМЯ РАЗБОРА ГАРДЕРОБА, 
@@ -94,7 +103,7 @@
 			    <div class="text-image-describe">Описание картинки</div>
 			    <div class="describe-help-container">
 					<div class="capture-describe-help-container">
-		                КАК ВСЕ ПРОИСХОДИТ
+		                <h2>КАК ВСЕ ПРОИСХОДИТ</h2>
 					</div>
 					<div class="text-describe-help-container">
 					    <div class="text-describe-point">
@@ -257,8 +266,9 @@
    
 			<div class="container-process">
                 <div class="process-galery">
-                    <h1>КАК ВСЁ ПРОХОДИТ</h1>
-                    
+                    <div class="capture-process-galery">
+                        <h2>КАК ВСЕ ПРОИСХОДИТ</h2>
+                    </div>
                     <table class="table-galery">
                     
                         <tr>
@@ -328,6 +338,15 @@
 			document.body.scrollTop = 0;
 			document.documentElement.scrollTop = 0;
 		}
+		
+		/*
+		document.fonts.ready.then(function() {
+		  alert(document.fonts);
+		});
+		*/
+		//let a = $("h2").css("font-family");
+		//alert(a);
+		
 	</script>
 </body>
 </html>

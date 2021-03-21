@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
     position: relative;
@@ -11,6 +11,10 @@ body {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oranienbaum', serif;
 }
 
 .bg-main-container {
@@ -49,7 +53,7 @@ body {
 .nav-telephone {
 	position:relative;
 	display:block; 
-	width:7em;
+	width:8em;
 	left: 200%;
 }
 
@@ -194,11 +198,6 @@ table, th, td {
     margin-top: 1em;
 }
 
-/* .card:last-child{ 
-    max-width: 25em;
-    left: 200px;
-} */
-
 .time {
     display: block;
     position: relative;
@@ -244,9 +243,9 @@ table, th, td {
     left: 20%;
 }
 
-.process-galery h1{
-    padding-top: 2em;
-    padding-bottom: 2em;
+.capture-process-galery {
+     margin-top: 2em;
+     margin-bottom: 3em;    
 }
 
 .image-galery {
