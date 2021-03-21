@@ -259,7 +259,25 @@ footer {
 	margin-top: 3em;
 }
 
+@media (max-width: 1160px){
+	.question {
+	    height: 6em;
+	}
+}
 
+@media (max-width: 925px) { 
+    #logo-text-caption {
+        display: none;
+    }
+    #logo-text-value {
+        display: none;
+    }
+}  
 
+@media (max-width: 650px) { 
+    .logo-new {
+        display: none;
+    }
+}
 
   
