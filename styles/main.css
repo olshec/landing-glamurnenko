@@ -137,6 +137,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: white;
     color: black;
     padding-top: 3em;
+    font-size: 0.8em;
+    font-weight: bold;
 }
 
 #table-you-get {
@@ -144,6 +146,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: auto;
     margin-right: auto;
 }  
+
+.container-table-you-get th, td {
+	padding-left: 2em;
+    padding-top: 1em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+}
 
 .container-table-you-get th {
 	background-color: rgba(255,209,0,255);
@@ -157,8 +166,15 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: rgba(255,209,0,255);
 } 
 
+
+.container-table-you-get table td:not(:first-child) {
+	text-align: center;
+}
+
 .btn-dark {
 	border-radius: 0px 0px 0px 0px;
+	margin-top: 2em;
+	font-weight: bold;
 }
 
 table, th, td {
