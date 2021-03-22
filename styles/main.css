@@ -204,6 +204,16 @@ table, th, td {
     margin-top: 1em;
 }
 
+.package {
+	font-weight: bold;
+}
+
+.package-name {
+	font-size: 1.5em;
+    font-weight: bold;
+    margin-top: -0.5em;
+}
+
 .btn-danger {
 	width: 80%;
 }
