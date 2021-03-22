@@ -1,10 +1,10 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     background-color: black;
     color: white;
     position: relative;
@@ -20,11 +20,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-main-container {
-	position: relative;
+    position: relative;
 }
 
  #bg-main {
-	width: 100%;
+    width: 100%;
 } 
 
 .nav-link{
@@ -32,31 +32,28 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.9em;
 }
 
+
 .nav-icon {
-	position: absolute;
-	clip: rect(0px,60px,25px,0px);
-	top: 15%;
-}
-
-.nav-icon-camera {
+    position: absolute;
     clip: rect(0px,60px,25px,0px);
-    left: 50%;
-    top: 15%;
+    top: 30%;
 }
 
-.nav-icon-facebook {
-    left: 75%;
+.li-camera {
+      width: 3em; 
 }
 
-.nav-icon-vk {
-    left: 100%;
+.li-facebook {
+     width: 3em;
 }
 
-.nav-telephone {
-	position:relative;
-	display:block; 
-	width:8em;
-	left: 200%;
+.li-vk {
+     width: 3em;
+     padding-right: 7em;
+}
+
+ .nav-telephone {
+    display:block;  
 }
 
 .container {
@@ -326,7 +323,7 @@ footer {
     }
 }  
 
-@media (max-width: 1125px) { 
+@media (max-width: 1255px) { 
 	body {
 	    padding-left: 0;
 	    padding-right: 0;
@@ -344,13 +341,16 @@ footer {
         margin-right: -10%;
     }
     .container-service-packages {
-        margin-left: -10%;
+        margin-left: -3%;
         margin-right: -10%;
     }
     .container-process {
         margin-left: -10%;
         margin-right: -10%;    
     }
+/*     .card {
+        margin-left: 30%;
+    } */
     .bg-main-container {
         margin-left: 0;
         margin-right: 0;
