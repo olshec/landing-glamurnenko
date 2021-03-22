@@ -140,10 +140,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #table-you-get {
-	width: 60%;
+	width: 74%;
     margin-left: auto;
     margin-right: auto;
 }  
+
+.container-table-you-get th {
+	background-color: rgba(255,209,0,255);
+}
+
+.container-table-you-get td {
+    background-color: rgba(255,240,0,255);
+}
+
+.container-table-you-get .table-price {
+	background-color: rgba(255,209,0,255);
+} 
+
+.btn-dark {
+	border-radius: 0px 0px 0px 0px;
+}
 
 table, th, td {
   border: 1px solid black;
@@ -310,7 +326,7 @@ footer {
 .btn-up {
 	color: white;
 	border: 1px solid white;
-	border-radius: 0px 0px 00px 0px;
+	border-radius: 0px 0px 0px 0px;
 }
 
 	
