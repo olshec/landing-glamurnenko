@@ -204,6 +204,10 @@ table, th, td {
     margin-top: 1em;
 }
 
+.btn-danger {
+	width: 80%;
+}
+
 .time {
     display: block;
     position: relative;
@@ -222,19 +226,31 @@ table, th, td {
     display: block;
     position: relative;
     overflow: hidden;
+    text-align: center;
 }  
+
+.list-price {
+    padding-bottom: 1em;
+}
   
-.price {
+.old-price {
     position: relative;
+    font-size: 1.4em;
+    color: rgba(164,164,165,255);
 }
  
-.price:before {
+.old-price:before {
 	border-bottom: 1px solid red;
 	position: absolute;
 	content: "";
 	width: 130%;
 	height: 50%;
 	transform: rotate(-10deg) translate(-15%);
+}
+
+.new-price {
+	font-size: 1.4em;
+    font-weight: bold;
 }
   
 .container-process {
@@ -305,6 +321,7 @@ footer {
     background-color: red;
     color: white;
     transform: rotate(-35deg) ; 
+    text-align: center;
 }
 
 
