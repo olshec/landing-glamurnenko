@@ -11,27 +11,27 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     min-width: 550px;
+    width: 100%;
+    
 }
-
-
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oranienbaum', serif;
 }
+ 
+#navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 1; 
+    background-color: black;
+}  
+        
 
-.bg-main-container {
-    position: relative;
-}
-
- #bg-main {
-    width: 100%;
-} 
 
 .nav-link{
     color: white;
     font-size: 0.9em;
 }
-
 
 .nav-icon {
     position: absolute;
@@ -56,9 +56,14 @@ h1, h2, h3, h4, h5, h6 {
     display:block;  
 }
 
-.container {
-	position: relative;
+.bg-main-container {
+    position: relative;
+    /* margin-top: 4em; */
 }
+
+ #bg-main {
+    width: 100%;
+} 
 
 .logo-new {
 	position: absolute;
@@ -302,32 +307,18 @@ footer {
     transform: rotate(-35deg) ; 
 }
 
-@media (max-width: 650px) { 
-    .logo-new {
-        display: none;
-    }
-}
 
-@media (max-width: 860px) { 
-    .novelty {
-        display: none;
-    }
-}
-
-@media (max-width: 925px) { 
-    #logo-text-caption {
-        display: none;
-    }
-    #logo-text-value {
-        display: none;
-    }
-}  
-
-@media (max-width: 1255px) { 
+@media (max-width: 1265px) { 
 	body {
 	    padding-left: 0;
 	    padding-right: 0;
     }
+    
+     #navbar {
+          margin-left: -3%;
+          margin-right: -10%;  
+        } 
+        
     .help-container {
         margin-left: -10%;
         margin-right: -10%;
@@ -348,17 +339,10 @@ footer {
         margin-left: -10%;
         margin-right: -10%;    
     }
-/*     .card {
-        margin-left: 30%;
-    } */
+
     .bg-main-container {
         margin-left: 0;
         margin-right: 0;
-    }
-
-    .navbar {
-        margin-left: -1.5em;
-        margin-right: -1.5em;
     }
     
     .novelty {
@@ -377,6 +361,29 @@ footer {
 	    height: 6em;
 	}
 }
+
+@media (max-width: 925px) { 
+    #logo-text-caption {
+        display: none;
+    }
+    #logo-text-value {
+        display: none;
+    }
+}  
+
+@media (max-width: 860px) { 
+    .novelty {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) { 
+    .logo-new {
+        display: none;
+    }
+}
+
+
 
 
 
