@@ -267,6 +267,7 @@ table, th, td {
 
 .btn-danger {
 	width: 80%;
+	background-color: red;
 }
 
 .time {
