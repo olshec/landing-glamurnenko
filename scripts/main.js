@@ -2,44 +2,45 @@ $(document).ready(function() {
     $("a.gallery").fancybox(); 
 });
 
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-
 let scrollLevel = false;
 
 function addEventListenerForScroll() {
-    document.addEventListener('scroll', function() {
-        let navbar = document.getElementById('navbar');
-        let elem = document.getElementsByClassName('help-container')[0];
+    $(document).on('scroll', function() {
+        let navbar = $('#navbar');
+        let elem = $('.help-container')[0];
         let top = elem.getBoundingClientRect().top;
         if (top <= 0 && false == scrollLevel) {
             scrollLevel = true;
-            navbar.classList.add('navbar-sticky');
+            navbar.addClass('navbar-sticky');
         } else if (top > 0 && true == scrollLevel) {
             scrollLevel = false;
-            navbar.classList.remove('navbar-sticky');
+            navbar.removeClass('navbar-sticky');
         }
     });
 }
 
 function addEventListenerForCards() {
-    let masCard = document.getElementsByClassName('card');
+    let masCard = $('.card');
     for(let i=0; i<masCard.length;i++) {
-        masCard[i].addEventListener('mouseover', function() {
+        masCard.on('mouseover', function() {
             this.classList.add("active-card");
         });
-        masCard[i].addEventListener('mouseout', function() {
+        masCard.on('mouseout', function() {
             this.classList.remove("active-card");
         });
     }
 }
 
+function addEventListenerForButtonScrollTop () {
+    $('#btn-up').on('click', function() {
+        $(window).scrollTop(0);
+    });
+}
+
 function afterPageLoad() {
     addEventListenerForCards();
     addEventListenerForScroll();
+    addEventListenerForButtonScrollTop();
 }
 
 afterPageLoad();
