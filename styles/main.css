@@ -175,6 +175,13 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.currency-symbol {
+	border: 1px solid black;
+	padding: 0.3em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+}
+
 .btn-dark {
 	border-radius: 0px 0px 0px 0px;
 	margin-top: 2em;
