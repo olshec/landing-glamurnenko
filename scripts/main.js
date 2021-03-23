@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     $("a.gallery").fancybox(); 
 });
@@ -7,6 +6,23 @@ $(document).ready(function() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+}
+
+let scrollLevel = false;
+
+function addEventListenerForScroll() {
+    document.addEventListener('scroll', function() {
+        let navbar = document.getElementById('navbar');
+        let elem = document.getElementsByClassName('help-container')[0];
+        let top = elem.getBoundingClientRect().top;
+        if (top <= 0 && false == scrollLevel) {
+            scrollLevel = true;
+            navbar.classList.add('navbar-sticky');
+        } else if (top > 0 && true == scrollLevel) {
+            scrollLevel = false;
+            navbar.classList.remove('navbar-sticky');
+        }
+    });
 }
 
 function addEventListenerForCards() {
@@ -23,6 +39,7 @@ function addEventListenerForCards() {
 
 function afterPageLoad() {
     addEventListenerForCards();
+    addEventListenerForScroll();
 }
 
 afterPageLoad();
