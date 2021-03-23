@@ -235,7 +235,6 @@ table, th, td {
 	margin-top: 0;
 	padding: 1em;
 	border: 1px solid black;
-	
 	overflow: hidden;
 }
   
@@ -257,6 +256,10 @@ table, th, td {
     align-content: center;
     align-self: center;
     margin-top: 1em;
+}
+
+.active-card {
+	box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .1), -2px -2px 5px 5px rgba(0, 0, 0, .1);
 }
 
 .package {
