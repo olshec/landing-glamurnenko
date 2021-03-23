@@ -202,8 +202,13 @@ h1, h2, h3, h4, h5, h6 {
 table, th, td {
   border: 1px solid black;
 }
+
+.books_preview {
+	background-color: #fff;
+	padding-top: 3em;
+}
   
-#books_preview {
+#books_preview_image {
 	width: 100%;
 }
 
