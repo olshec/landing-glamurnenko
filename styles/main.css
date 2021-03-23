@@ -176,7 +176,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-
 .check-svg {
     width: 2em;
     height: auto;
@@ -200,7 +199,6 @@ h1, h2, h3, h4, h5, h6 {
 table, th, td {
   border: 1px solid black;
 }
-  
   
 #books_preview {
 	width: 100%;
@@ -364,7 +362,6 @@ footer {
 	border: 1px solid white;
 	border-radius: 0px 0px 0px 0px;
 }
-
 	
 .footer-text {
 	margin-top: 3em;
