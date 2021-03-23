@@ -214,6 +214,10 @@ table, th, td {
 	padding-right: 5%;
 }
   
+.title-service-packages {
+      text-align: center;
+}
+  
 .capture-service-packages {
 	position: relative; 
     width: 100%;
@@ -413,6 +417,7 @@ footer {
         margin-left: -3%;
         margin-right: -10%;
     }
+    
     .container-process {
         margin-left: -10%;
         margin-right: -10%;    
