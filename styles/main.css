@@ -147,7 +147,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
 }  
 
-
 .container-table-you-get .table-price {
     background-color: rgba(255,209,0,255);
     font-weight: bold;
@@ -175,6 +174,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .container-table-you-get table  th:not(:first-child){
     text-align: center;
+}
+
+
+.check-svg {
+    width: 2em;
+    height: auto;
 }
 
 .currency-symbol {
