@@ -147,6 +147,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: auto;
 }  
 
+
+.container-table-you-get .table-price {
+    background-color: rgba(255,209,0,255);
+    font-weight: bold;
+    font-size: 1.2em;
+} 
+
 .container-table-you-get th, td {
 	padding-left: 2em;
     padding-top: 1em;
@@ -161,11 +168,6 @@ h1, h2, h3, h4, h5, h6 {
 .container-table-you-get td {
     background-color: rgba(255,240,0,255);
 }
-
-.container-table-you-get .table-price {
-	background-color: rgba(255,209,0,255);
-} 
-
 
 .container-table-you-get table td:not(:first-child) {
 	text-align: center;
