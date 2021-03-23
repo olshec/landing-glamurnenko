@@ -171,6 +171,10 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
+.container-table-you-get table  th:not(:first-child){
+    text-align: center;
+}
+
 .btn-dark {
 	border-radius: 0px 0px 0px 0px;
 	margin-top: 2em;
