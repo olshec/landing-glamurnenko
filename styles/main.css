@@ -12,7 +12,6 @@ body {
     padding-right: 10%;
     min-width: 550px;
     width: 100%;
-    
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -392,7 +391,6 @@ footer {
     transform: rotate(-35deg) ; 
     text-align: center;
 }
-
 
 @media (max-width: 1265px) { 
 	body {
